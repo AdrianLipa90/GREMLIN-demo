@@ -1,0 +1,26 @@
+{
+  "schema": "GREMLIN_DEMO_AUDIT_RECEIPT_V1",
+  "date": "2026-09-28",
+  "authority": "CANDIDATE_ONLY",
+  "frozen_main": "b3747c233887da232a9e95c290cc96aa639b2511",
+  "audited_baseline_parent": "f3165b4cc37bd3b6d4025f862a621c35a6f55fe2",
+  "baseline_readme_blob": "4bdf0e7551d48099f81accac4dfba9e1062c9e8f",
+  "original_monograph_blob": "ad9c704da6dbeac61c22baad3e35836e7191184e",
+  "repair_branch": "fix/gremlin-demo-monograph-control-chars-20260928",
+  "repaired_monograph_blob": "6c2e04b1b2689d605921f4121a76eca838a15069",
+  "findings": {
+    "main_branch_count_at_freeze": 1,
+    "executable_code_present": false,
+    "test_suite_present": false,
+    "original_monograph_control_characters": true,
+    "repaired_monograph_control_characters": false
+  },
+  "validation": {
+    "branch_payload_scope": "documentation-only repair",
+    "repaired_text_control_character_scan": "PASS",
+    "readme_git_blob_provenance": "PASS",
+    "synthetic_code_test_required": false
+  },
+  "main_modified": false,
+  "promotion_gate": "EXPLICIT_USER_AUTHORIZATION_REQUIRED_FOR_MAIN_MERGE"
+}
