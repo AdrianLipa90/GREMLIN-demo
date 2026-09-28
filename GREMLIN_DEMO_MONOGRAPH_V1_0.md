@@ -29,7 +29,7 @@ Accordingly, this repository is a public-facing demonstration shell rather than 
 
 ## 3. Branch state
 
-At the audit refresh, the repository has only `main`. There is no unmerged branch payload to reconcile in the audited state.
+At frozen HEAD `b3747c233887da232a9e95c290cc96aa639b2511`, the repository had only `main` and no unmerged payload. This control-character repair is intentionally isolated on `fix/gremlin-demo-monograph-control-chars-20260928`; `main` remains unchanged.
 
 ## 4. Independent local validation
 
